@@ -1,0 +1,5 @@
+n = int(input())
+_str = input()
+x = _str.count("0")
+s = _str.count("1")
+print(abs(x - s))
