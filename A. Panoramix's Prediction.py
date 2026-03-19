@@ -12,7 +12,7 @@ if b not in lst:
 else:
     for i in range(len(lst)-1):
         if lst[i] == a:
-                if lst[i+1] == b:
-                    print("YES")
-                else:
-                    print("NO")
+            if lst[i+1] == b:
+                print("YES")
+            else:
+                print("NO")
